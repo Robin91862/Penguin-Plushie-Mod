@@ -1,8 +1,8 @@
 ![A penguin made in Minecraft](https://raw.githubusercontent.com/Robin91862/Pingu-Plushie-Mod/main/Penguin.png)
 
-# Penguin Plushies
+# Penguin Plushie
 
-A simple mod for adding Penguin Plushie
+A simple mod for adding Penguin Plushies
 
 # Crafting Recipe
 
