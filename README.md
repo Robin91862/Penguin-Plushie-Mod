@@ -2,7 +2,7 @@
 
 # Penguin Plushies
 
-A simple mod for adding Penguin Plushies
+A simple mod for adding Penguin Plushie
 
 # Crafting Recipe
 
