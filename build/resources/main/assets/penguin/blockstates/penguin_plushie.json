@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "penguin:block/penguin_plushie"
+    },
+    "facing=east": {
+      "model": "penguin:block/penguin_plushie",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "penguin:block/penguin_plushie",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "penguin:block/penguin_plushie",
+      "y": 270
+    }
+  }
+}

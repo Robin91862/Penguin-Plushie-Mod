@@ -1,0 +1,14 @@
+{
+  "parent": "penguin:custom/penguin_plushie",
+  "textures": {
+    "all": "penguin:block/black",
+    "particle": "penguin:block/black",
+    "0": "penguin:block/red",
+    "1": "penguin:block/texture",
+    "2": "penguin:block/front",
+    "3": "penguin:block/black",
+    "4": "penguin:block/pink",
+    "5": "penguin:block/face"
+  },
+  "render_type": "solid"
+}

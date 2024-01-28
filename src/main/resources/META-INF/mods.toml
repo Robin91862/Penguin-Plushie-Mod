@@ -1,0 +1,23 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="Apache License version 2.0"
+
+[[mods]]
+modId="penguin"
+version="1.1"
+displayName="Penguin Plushie"
+displayURL="https://modrinth.com/mod/penguin-plushie"
+credits="Robin91862"
+authors="Robin91862"
+description="A simple mod for adding Penguin Plushies"
+
+[[dependencies.penguin]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

@@ -1,0 +1,15 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "red",
+        "1": "texture",
+        "2": "front",
+        "3": "black",
+        "4": "pink",
+        "5": "face"
+      },
+      "name": "default"
+    }
+  }
+}
