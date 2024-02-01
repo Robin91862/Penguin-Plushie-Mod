@@ -10,4 +10,4 @@ A simple mod for adding Penguin Plushies
 
 # How to build
 
-Clone this repo and use MCreator 2023.4
+Clone this repo and use MCreator 2023.3
