@@ -2,19 +2,37 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "aaa",
-    "aba",
-    "aca"
+    "012",
+    "345",
+    "678"
   ],
   "key": {
-    "a": {
+    "0": {
       "item": "minecraft:black_wool"
     },
-    "b": {
+    "1": {
+      "item": "minecraft:black_wool"
+    },
+    "2": {
+      "item": "minecraft:black_wool"
+    },
+    "3": {
+      "item": "minecraft:black_wool"
+    },
+    "4": {
       "item": "minecraft:ice"
     },
-    "c": {
+    "5": {
+      "item": "minecraft:black_wool"
+    },
+    "6": {
+      "item": "minecraft:black_wool"
+    },
+    "7": {
       "item": "minecraft:white_wool"
+    },
+    "8": {
+      "item": "minecraft:black_wool"
     }
   },
   "result": {

@@ -1,25 +1,27 @@
 
 /*
- *    MCreator note: This file will be REGENERATED on each build.
+ *	MCreator note: This file will be REGENERATED on each build.
  */
 package net.mod.penguin.init;
 
 import net.mod.penguin.PenguinMod;
 
-import net.minecraftforge.registries.RegistryObject;
-import net.minecraftforge.registries.DeferredRegister;
-
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.ResourceKey;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
+import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.core.Registry;
+
+import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 
 public class PenguinModTabs {
-	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, PenguinMod.MODID);
-	public static final RegistryObject<CreativeModeTab> PENGUIN_ADDON = REGISTRY.register("penguin_addon",
-			() -> CreativeModeTab.builder().title(Component.translatable("item_group.penguin.penguin_addon")).icon(() -> new ItemStack(PenguinModBlocks.PENGUIN_PLUSHIE.get())).displayItems((parameters, tabData) -> {
-				tabData.accept(PenguinModBlocks.PENGUIN_PLUSHIE.get().asItem());
-			})
+	public static ResourceKey<CreativeModeTab> TAB_PENGUIN_ADDON = ResourceKey.create(Registries.CREATIVE_MODE_TAB, new ResourceLocation(PenguinMod.MODID, "penguin_addon"));
 
-					.build());
+	public static void load() {
+		Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB, TAB_PENGUIN_ADDON,
+				FabricItemGroup.builder().title(Component.translatable("item_group." + PenguinMod.MODID + ".penguin_addon")).icon(() -> new ItemStack(PenguinModBlocks.PENGUIN_PLUSHIE)).build());
+	}
 }

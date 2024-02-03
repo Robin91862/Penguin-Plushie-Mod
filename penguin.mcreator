@@ -3,7 +3,6 @@
     {
       "name": "PenguinAddon",
       "type": "tab",
-      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "penguin_addon",
@@ -14,23 +13,21 @@
     {
       "name": "PenguinPlushie",
       "type": "block",
-      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "registry_name": "penguin_plushie",
       "metadata": {
         "files": [
-          "src/main/resources/assets/penguin/models/item/penguin_plushie.json",
-          "src/main/resources/assets/penguin/models/block/penguin_plushie.json",
           "src/main/java/net/mod/penguin/block/PenguinPlushieBlock.java",
-          "src/main/resources/assets/penguin/blockstates/penguin_plushie.json"
+          "src/main/resources/assets/penguin/blockstates/penguin_plushie.json",
+          "src/main/resources/assets/penguin/models/item/penguin_plushie.json",
+          "src/main/resources/assets/penguin/models/block/penguin_plushie.json"
         ]
       }
     },
     {
       "name": "PenguinCraft",
       "type": "recipe",
-      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "penguin_craft",
@@ -67,10 +64,10 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "forge-1.20.1",
+    "currentGenerator": "fabric-1.20.1",
     "credits": "Robin91862",
     "modElementsPackage": "net.mod.penguin",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202300452316
+  "mcreatorVersion": 202300336712
 }

@@ -1,0 +1,71 @@
+{
+  "mod_elements": [
+    {
+      "name": "PenguinAddon",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "penguin_addon",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "PenguinPlushie",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "penguin_plushie",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mod/penguin/block/PenguinPlushieBlock.java",
+          "src/main/resources/assets/penguin/blockstates/penguin_plushie.json",
+          "src/main/resources/assets/penguin/models/item/penguin_plushie.json",
+          "src/main/resources/assets/penguin/models/block/penguin_plushie.json"
+        ]
+      }
+    },
+    {
+      "name": "PenguinCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "penguin_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/penguin/recipes/penguin_craft.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item_group.penguin.penguin_addon": "Penguin Plushie",
+      "block.penguin.penguin_plushie": "Penguin Plushie"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "penguin",
+    "modName": "Penguin Plushie",
+    "version": "1.0.0",
+    "author": "aleksander, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.20.1",
+    "modElementsPackage": "net.mod.penguin",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}
