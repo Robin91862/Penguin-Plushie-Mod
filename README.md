@@ -6,7 +6,7 @@ A simple mod for adding Penguin Plushies
 
 # Downloads
 
-![Modrinth Downloads](https://img.shields.io/modrinth/dt/wkHvVD8O?style=plastic&logo=modrinth&color=00af5c&link=https%3A%2F%2Fmodrinth.com%2Fmod%2Fpenguin-plushie)
+[![Modrinth Downloads](https://img.shields.io/modrinth/dt/wkHvVD8O?style=plastic&logo=modrinth&color=00af5c)](https://modrinth.com/mod/penguin-plushie)
 
 # Crafting Recipe
 
